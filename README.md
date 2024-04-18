@@ -2,39 +2,45 @@
 
 ## BMI Calculator Website
 
-This is a simple BMI (Body Mass Index) calculator web application built using HTML, CSS, and JavaScript. It allows users to input their age, gender, height, and weight, and calculates their BMI accordingly.
+This is a simple BMI (Body Mass Index) calculator website built using HTML, CSS, and JavaScript. It allows users to input their age, gender, height, and weight, and calculates their BMI accordingly.
 
-### Features
+## Features:
 
-- **User-friendly Interface**: The interface is designed to be intuitive and easy to use.
-- **Responsive Design**: The web app is responsive and works well on various screen sizes, including mobile devices.
-- **BMI Calculation**: It calculates the BMI based on the provided input of height and weight.
-- **Gender Selection**: Users can select their gender to calculate BMI based on gender-specific formulas.
-- **Interactive Feedback**: Provides feedback on the calculated BMI and offers additional information or advice based on the result.
-- **Modal Pop-up**: Utilizes a modal pop-up for displaying additional information or messages.
+### Manual Calculation:
+- Users can input their age, gender, height, and weight.
+- Upon clicking the "Calculate BMI" button, the BMI is computed based on the provided inputs.
+- The result is displayed along with an interpretation of the BMI category.
 
-### Technologies Used
+### Facial Recognition:
+- Clicking the "Start" button initiates the facial recognition feature.
+- Users grant permission to access their webcam.
+- A deep learning model is used to capture the user's face and predict their BMI based on facial features.
+- The predicted BMI is displayed along with an interpretation of the BMI category.
 
-- HTML
-- CSS
-- JavaScript
+## Technologies Used:
+- **HTML:** Provides the structure and layout of the website.
+- **CSS:** Styles the website for an appealing user interface.
+- **JavaScript:** Implements the BMI calculation logic and handles user interactions.
+- **Deep Learning:** Utilizes a pre-trained model for facial recognition to predict BMI based on facial features.
 
-### How to Use
+## How to Use
 
 1. Clone the repository to your local machine.
-2. Open the `index.html` file in your web browser.
+2. Open the `calculator.html` file in your web browser.
 3. Input your age, select your gender, and enter your height and weight.
 4. Click on the "Calculate BMI" button to see the result.
-5. A modal pop-up will display additional information based on your BMI result.
+5. To begin, click on the "Start" button to activate the facial recognition feature.
+6. Grant permission to access your webcam when prompted.
 
-### Backend Deployment
+## Backend Deployment
 
 Further deployment has been handled by Ravinder, a PhD scholar in the Biomedical Department at IIT Ropar.
 
-### Authors
+## Authors
 
 - Arya Sahu
 - M Gopinath
+- Ravinder Kumar
 
 ### Contact
 
